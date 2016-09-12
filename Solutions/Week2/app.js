@@ -1,6 +1,6 @@
 function getWelcomeMessage(value) {
 
-  if(value == 'Hello')
+  if(value =='Hello')
   {
     return "Hello world!"
   }
@@ -10,3 +10,4 @@ function getWelcomeMessage(value) {
 }
 var val = prompt("Type 'Hello'")
 alert(getWelcomeMessage(val));
+prompt();
